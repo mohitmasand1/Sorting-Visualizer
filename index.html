@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visualize Sorts</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="description" content="">
+        <meta name="Viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="topnav">
+            <nav>
+                <ul class="nav_links">
+                    <li><img src="images/logo.png" alt="logo" class="logo"></li>
+                </ul>
+            </nav>
+            <a target="_blank" href="https://www.github.com/mohitmasand1/Sorting-Visualizer"><img src="images/github.png" class="ghub"></a>
+        </header>
+
+        <div class="body">
+            <div class="slidecontainer">
+                <p class="slider-text">Speed</p>
+                <input type="range" min="75" max="100" value="75" class="slider" id="speed-slider">
+                <p class="slider-text">Size</p>
+                <input type="range" min="5" max="80" value="50" class="slider" id="size-slider">
+            </div>
+
+            <div class="div">
+                <div class="a">
+                    <a class="selected" href="#">Selection Sort</a>
+                </div>
+                <ul class="ul">
+                    <li><a class="sort" href="#">Selection Sort</a></li>
+                    <li><a class="sort" href="#">Insertion Sort</a></li>
+                    <li><a class="sort" href="#">Bubble Sort</a></li>
+                    <li><a class="sort" href="#">Merge Sort</a></li>
+                    <li><a class="sort" href="#">Quick Sort</a></li>
+                    <li><a class="sort" href="#">Heap Sort</a></li>
+                </ul>
+            </div>
+
+            <div class="btn-div">
+                <button type="button" class="sort-btn" id="newarray">New Array</button>
+            </div>
+        </div>
+
+        <div class="sort-stats">
+            <div id="timer" style="color: #ecf0f1;">
+                Time: 00:00s
+            </div>
+            <div id="counter" style="color: #ecf0f1;">
+                Comparisons: 0
+            </div>
+        </div>
+
+        <div id="sort-bars">
+
+        </div>
+
+        <div class="sort-btn-holder">
+            <button id="sort-btn">Sort</button>
+        </div>
+
+        <footer>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/mohitmasand1/" target="_blank" class="fa fa-linkedin-square"></a></li>
+                <li><a href="https://www.github.com/mohitmasand1/" target="_blank" class="fa fa-github"></a></li>
+            </ul>
+        </footer>
+
+        <script src="main.js" async defer></script>
+        <script src="algorithms/selectionSort.js" async defer></script>
+        <script src="algorithms/insertionSort.js" async defer></script>
+        <script src="algorithms/mergeSort.js" async defer></script>
+        <script src="algorithms/quickSort.js" async defer></script>
+        <script src="algorithms/heapSort.js" async defer></script>
+        <script src="algorithms/bubbleSort.js" async defer></script>
+    </body>
+</html>
