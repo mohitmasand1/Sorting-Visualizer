@@ -5,7 +5,7 @@ The Sorting Visualizer is exactly what it's called, with extra features added in
 ## Setup Requirements
 - Clone project to your desktop
 - Open the directory on your computer
-- Open main.js on your browser
+- Open index.html on your browser
 
 ## How to Use
 ![ScreenShot](screenshot.png)
