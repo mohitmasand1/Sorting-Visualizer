@@ -25,9 +25,11 @@ The algorithms are contained separately in the algorithms directory and each of 
 
 - Using the 'New Array' button simply displays a different array than the current one (i.e. the size of the new array remains the same, unless changed by the slider).
 
-- Once 'Sort' is clicked, the visualization under the chosen settings begins, which I will leave for you as a surprise.
+- Once 'Sort' is clicked, the visualization under the chosen settings begins, which are added as gifs below.
 
 - The time and comparisons begin, stop, and reset on their own as they are independant and for informational and observational purposes only.
+
+## GIFs
 
 Selection Sort
 
