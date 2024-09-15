@@ -1,4 +1,5 @@
 # Sorting-Visualizer
+https://mohitsvisualizer.netlify.app/
 ## Description
 The Sorting Visualizer is exactly what it's called, with extra features added into it. It shows a live visualization of 6 different sorting algorithms, namely, Selection Sort, Insertion Sort, Bubble Sort, Merge Sort, Quick Sort, and Heap Sort. Each of these algorithms can be selected and viewed at any speed (slow or fast) on an array of any sizes between 5 and 80 (for different perspectives). Algorithms are performed on randomized arrays and have a dedicated timer and number of comparisons counter so the time taken and comparisons made by one algorithm can be compared with another for a representation of the varying time-complexities of the algorithms. 
 
